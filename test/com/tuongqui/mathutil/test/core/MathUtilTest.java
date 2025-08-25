@@ -45,7 +45,7 @@ public class MathUtilTest {
         Assert.assertEquals(6, MathUtil.getFactorial(3));// tôi mún 3! = 6
         Assert.assertEquals(24, MathUtil.getFactorial(4));// tôi mún 4! = 24
         Assert.assertEquals(120, MathUtil.getFactorial(5));// tôi mún 5! = 120
-        
+        Assert.assertEquals(720, MathUtil.getFactorial(6));// tôi mún 6! = 720
                 
     } // hàm giúp so sánh 2 giá trị có giống nhau hay không
     // nếu giống thì thảy ra màu xanh, nếu khác nhau thì thảy ra màu đỏ
